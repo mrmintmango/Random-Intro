@@ -1,62 +1,121 @@
 const activities = [
   {
-    name: "Morning Yoga",
-    description: "Start your day with a 20-minute yoga session to improve flexibility and clear your mind.",
-    secret: false
+    name: "Find your Font",
+    description:
+      "Everyone takes 5 minutes and finds a Font that best matches their personality.",
+    secret: false,
   },
   {
-    name: "Secret Recipe Cook-Off",
-    description: "Make grandma's legendary lasagna using the family recipe passed down for three generations.",
-    secret: true
+    name: "Palette Challenge",
+    description:
+      "Using a predefined color palette, everyone gets 5 minutes to create a design based on a very specific theme.",
+    secret: false,
   },
   {
-    name: "Nature Hike",
-    description: "Explore a local trail, breathe in fresh air, and take in the beauty of the great outdoors.",
-    secret: false
+    name: "Movinary!!",
+    description:
+      "It's pictionary using the white boards in the conference room but it can only be movies.",
+    secret: false,
   },
   {
-    name: "Mystery Book Club",
-    description: "The next meeting will discuss a surprise novel — you won't find out the title until you arrive!",
-    secret: true
+    name: "Bracket Bracket",
+    description:
+      "Create a bracket based off a certain theme (Disney Villains, Current Celebrities, Top Singers, Fast Food, etc.) then everyone votes to see who the winner is.",
+    secret: false,
   },
   {
-    name: "Board Game Night",
-    description: "Gather friends for an evening of strategy and laughter with classic and modern board games.",
-    secret: false
+    name: "Bad Heroes",
+    description:
+      "2 Parts, 1st round everyone chooses what their favorite superpower is based on existing superheroes. 2nd round everyone gets paired off and has to choose each other's super power side effect.",
+    secret: true,
   },
   {
-    name: "Stargazing",
-    description: "Head out after dark with a blanket and binoculars to observe the night sky and identify constellations.",
-    secret: false
+    name: "Main Character Syndrome",
+    description:
+      "Everyone has 5 minutes to write a synopsis of their life as if it was a movie description, and what kind of movie it would be.",
+    secret: false,
   },
   {
-    name: "Surprise Art Project",
-    description: "Create a mixed-media masterpiece using a secret set of materials revealed only when you sit down.",
-    secret: true
+    name: "Pinterest Runway",
+    description:
+      "Everyone gets 5 minutes to create a Pinterest board and fill it with their ideal sense of Fashion, no budget, no worries about what anyone would think if you actually wore these things, just what you like best.",
+    secret: false,
   },
   {
-    name: "Cooking Class",
-    description: "Learn to prepare a new cuisine from scratch with a step-by-step guided cooking class.",
-    secret: false
+    name: "Logo Speedrun",
+    description:
+      "Everyone gets 5 minutes to make a logo for a fake company, or 2 minutes each to create multiple logos for a speed challenge!",
+    secret: false,
   },
   {
-    name: "Puzzle Challenge",
-    description: "Race against the clock to complete a 1000-piece jigsaw puzzle solo or with a partner.",
-    secret: false
+    name: "Villain Arc",
+    description:
+      "Everyone gets 5 minutes to create the evil villain version of themselves. Will they have an evil name? Evil superpowers? What will their evil lair look like?",
+    secret: false,
   },
   {
-    name: "Hidden Treasure Hunt",
-    description: "Follow a series of cryptic clues around your neighborhood to find a special hidden prize.",
-    secret: true
+    name: "Shark Bear",
+    description:
+      "Everyone gets 3 minutes to decide what is the largest animal they think they could beat in a fight. Anything goes, weapons, location, fake stuff - the only catch, if you can use something, the animal can use it just as well.",
+    secret: false,
   },
   {
-    name: "Journaling Session",
-    description: "Set aside 30 minutes to reflect on your week, write about your goals, and express gratitude.",
-    secret: false
+    name: "Drawful",
+    description: "We just play Drawful.",
+    secret: false,
   },
   {
-    name: "Movie Marathon",
-    description: "Pick a film series or director and watch back-to-back movies with snacks and cozy blankets.",
-    secret: false
-  }
+    name: "Alien Fieldtrip",
+    description:
+      "Except you're the tour guide! If aliens visited earth and ended up coming straight to you, what would be the first things you take them to go see?",
+    secret: false,
+  },
+  {
+    name: "Jumanji",
+    description:
+      "Everyone gets to pick one movie world that somehow gets sucked into our world! Why that movie, and what would be the consequences?",
+    secret: false,
+  },
+  {
+    name: "Dark Mode",
+    description:
+      "Everyone gets to pick their favorite Utah brand / company and then has to redesign their logo / branding to a dark mode theme (Or a light mode if their brand is already dark enough).",
+    secret: false,
+  },
+  {
+    name: "Team Takeover",
+    description:
+      "We split into 2 teams, and we get 5 minutes to create a cool brand for the same kind of company, then we switch brands, and get 5 minutes to alter the competition's brand in a way that makes ours look better.",
+    secret: true,
+  },
+  {
+    name: "What are you reading?",
+    description:
+      "1 fake book title + 8 minutes = 1 very compelling book cover.",
+    secret: false,
+  },
+  {
+    name: "Be Selfish!",
+    description:
+      "Everyone gets 5 minutes to create a T-shirt design of something that they would actually want to wear.",
+    secret: false,
+  },
+  {
+    name: "Nostalgia",
+    description:
+      "Everyone gets a little bit to reflect and remember, and then we all share the last time we felt nostalgic and what made us feel that way.",
+    secret: false,
+  },
+  {
+    name: "Chicken Jockey",
+    description:
+      "Everyone gets a bit to think, and then we all share one social media / culture trend that we find to be the most annoying.",
+    secret: false,
+  },
+  {
+    name: "Fontastic",
+    description:
+      "Everyone is assigned a different Font, then we each get 5 minutes to create a Pinterest board filled with that font's aesthetic.",
+    secret: false,
+  },
 ];
