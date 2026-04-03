@@ -1,54 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Random Activity — Random Intro</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Activity — Random Intro</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated background particles -->
+    <canvas id="particles-canvas"></canvas>
 
-  <!-- Animated background particles -->
-  <canvas id="particles-canvas"></canvas>
+    <nav>
+      <a href="index.html" class="logo">🎲 Random Intro</a>
+      <ul>
+        <li><a href="index.html" class="active">Random Pick</a></li>
+        <li><a href="activities.html">All Activities</a></li>
+      </ul>
+    </nav>
 
-  <nav>
-    <a href="index.html" class="logo">🎲 Random Intro</a>
-    <ul>
-      <li><a href="index.html" class="active">Random Pick</a></li>
-      <li><a href="activities.html">All Activities</a></li>
-    </ul>
-  </nav>
+    <div class="page-container">
+      <section id="randomizer-section">
+        <h1>How should we begin?</h1>
+        <p class="subtitle">
+          Spin the wheel and let fate decide your next adventure.
+        </p>
 
-  <div class="page-container">
-    <section id="randomizer-section">
-      <h1>What should I do today?</h1>
-      <p class="subtitle">Spin the wheel and let fate decide your next adventure.</p>
-
-      <!-- Slot-machine style display -->
-      <div class="slot-wrapper" id="slot-wrapper">
-        <div class="slot-track" id="slot-track">
-          <!-- Items injected by JS -->
+        <!-- Slot-machine style display -->
+        <div class="slot-wrapper" id="slot-wrapper">
+          <div class="slot-track" id="slot-track">
+            <!-- Items injected by JS -->
+          </div>
+          <div class="slot-highlight"></div>
         </div>
-        <div class="slot-highlight"></div>
+
+        <button class="btn btn-primary" id="spin-btn" onclick="spinActivity()">
+          <span>✨</span> Pick for Me!
+        </button>
+      </section>
+
+      <!-- Result card shown after spin -->
+      <div id="result-card">
+        <div class="result-label">Your Activity</div>
+        <div id="result-name"></div>
+        <div id="result-description"></div>
+        <button
+          class="btn btn-reveal"
+          id="reveal-btn"
+          onclick="revealSecret()"
+          style="display: none"
+        >
+          🔓 Reveal Secret Description
+        </button>
       </div>
-
-      <button class="btn btn-primary" id="spin-btn" onclick="spinActivity()">
-        <span>✨</span> Pick for Me!
-      </button>
-    </section>
-
-    <!-- Result card shown after spin -->
-    <div id="result-card">
-      <div class="result-label">Your Activity</div>
-      <div id="result-name"></div>
-      <div id="result-description"></div>
-      <button class="btn btn-reveal" id="reveal-btn" onclick="revealSecret()" style="display:none;">
-        🔓 Reveal Secret Description
-      </button>
     </div>
-  </div>
 
-  <script src="activities.js"></script>
-  <script src="app.js"></script>
-</body>
+    <script src="activities.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
