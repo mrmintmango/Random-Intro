@@ -14,7 +14,7 @@ const activities = [
   {
     name: "Movinary!!",
     description:
-      "It's pictionary using the white boards in the conference room but it can only be movies.",
+      "It's pictionary using the white boards in the conference room, but the player can only draw scenes from a movie and everyone needs to guess that movie.",
     secret: false,
   },
   {
@@ -61,7 +61,7 @@ const activities = [
   },
   {
     name: "Drawful",
-    description: "We just play Drawful.",
+    description: "We just play Drawful. It's a good time.",
     secret: false,
   },
   {
@@ -116,6 +116,18 @@ const activities = [
     name: "Fontastic",
     description:
       "Everyone is assigned a different Font, then we each get 5 minutes to create a Pinterest board filled with that font's aesthetic.",
+    secret: false,
+  },
+  {
+    name: "Creative Types",
+    description:
+      "We each take the Adobe Creative Types personality quiz, and then we share our results and see if we think they are accurate or not.",
+    secret: false,
+  },
+  {
+    name: "Could be better",
+    description:
+      "The host finds or makes an intentionally bad design, and then everyone gets 5 minutes to make it better.",
     secret: false,
   },
 ];
