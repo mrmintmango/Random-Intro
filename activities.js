@@ -130,4 +130,22 @@ const activities = [
       "The host finds or makes an intentionally bad design, and then everyone gets 5 minutes to make it better.",
     secret: false,
   },
+  {
+    name: "Money Matters",
+    description:
+      "Would you rather get paid enough to get by doing something you love, or get paid a ton to do something you hate? And what would that thing be?",
+    secret: false,
+  },
+  {
+    name: "Dream Chasing",
+    description:
+      "If you had the opportunity to get paid comfortably for doing something you love, but it would require you to move to a different city, would you do it? What would that thing be and where would you move to?",
+    secret: false,
+  },
+  // {
+  //   name: "Chutes and Ladders",
+  //   description:
+  //     "Would you rather have to climb up from the lowest point on earth, or make your way down from the highest point on earth? And how would you do it?",
+  //   secret: false,
+  // },
 ];
